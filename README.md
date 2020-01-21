@@ -24,8 +24,6 @@ It should be noted that, the turning data that can be collected in the real scen
 Totally, this dataset includes 9 categories (including background), 7720 images, and 10571 instances. The data distribution statistics can be viewed at following histogram:
 ![Statistics](https://github.com/scutDACIM/Vehicle-Light-Signal-VLS-Dataset/blob/master/Statistics.png)
 
-You can download our data set from [here](https://github.com/scutDACIM/Vehicle-Light-Signal-Dataset) (we will release later), 
+You can download our data set from [here](https://github.com/scutDACIM/Vehicle-Light-Signal-Dataset) (we will release later), including original images and labels. The original images are various vehicle light signals in the real scene taken from the driving recorder. The labels are in VOC format and each label file contains the vehicle light signal categories and locations.
 
-including original images and labels. The original images are various vehicle light signals in the real scene taken from the driving recorder. The labels are in VOC format and each label file contains the vehicle light signal categories and locations.
-
-For any questions related to this dataset, or If you would like to trial the More Efficient Labelling Tool (LabelImage) , please contact msxinhe@mail.scut.edu.cn
+For any questions related to this dataset, or If you would like to trial the More Efficient Labelling Tool (LabelImage) , please contact msxinhe@mail.scut.edu.cn.
