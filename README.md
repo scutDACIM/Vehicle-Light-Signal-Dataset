@@ -19,10 +19,12 @@ Our Vehicle Light Signal (VLS) dataset contains 4 common behaviours of vehicles:
 
 8.night_right
 
-Totally, this dataset includes 7720 images, 9 categories (including background), and 10571 instances. The data distribution statistics can be viewed at following histogram:
+It should be noted that, the turning data that can be collected in the real scene is very scarce, so we randomly crop the collected turning data to augment by 10 times to avoid extreme data imbalance.
+
+Totally, this dataset includes 9 categories (including background), 7720 images, and 10571 instances. The data distribution statistics can be viewed at following histogram:
 ![Statistics](https://github.com/scutDACIM/Vehicle-Light-Signal-VLS-Dataset/blob/master/Statistics.png)
 
-You can download our data set from [here](https://pan.baidu.com/s/1uRJVmHoaNWg72ajDQm32ow) (password:please contact the email bellow), 
+You can download our data set from [here](https://github.com/scutDACIM/Vehicle-Light-Signal-Dataset) (we will release later), 
 
 including original images and labels. The original images are various vehicle light signals in the real scene taken from the driving recorder. The labels are in VOC format and each label file contains the vehicle light signal categories and locations.
 
